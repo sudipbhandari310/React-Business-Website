@@ -10,9 +10,9 @@ import {
 const Home = () => {
   return (
     <>
-      <div className="home">
+      <div className="home" id="home">
         <main>
-          <h1>Bristi Boutique</h1>
+          <h1>Navyata</h1>
           <p>Solution to all your problems</p>
         </main>
       </div>
@@ -30,7 +30,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="home3">
+      <div className="home3" id="about">
         <div>
           <h1>Who are we?</h1>
           <p>
@@ -42,7 +42,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="home4">
+      <div className="home4" id="brands">
         <div>
           <h1>Brands</h1>
           <article>
@@ -51,17 +51,17 @@ const Home = () => {
               <p>Google</p>
             </div>
 
-            <div style={{ animationDelay: "0.3s" }}>
+            <div style={{ animationDelay: "0.4s" }}>
               <AiFillAmazonCircle />
               <p>Amazon</p>
             </div>
 
-            <div style={{ animationDelay: "0.3s" }}>
+            <div style={{ animationDelay: "0.5s" }}>
               <AiFillInstagram />
               <p>Instagram</p>
             </div>
 
-            <div style={{ animationDelay: "0.3s" }}>
+            <div style={{ animationDelay: "0.7s" }}>
               <AiFillYoutube />
               <p>Youtube</p>
             </div>
